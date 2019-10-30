@@ -248,7 +248,10 @@ namespace Digger
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DiggerContainer diggerContainer = new DiggerContainer();
+            WalkerContainer walkerContainer = new WalkerContainer();
+            SwimmerContainer swimmerContainer = new SwimmerContainer();
+            FlierContainer flierContainer = new FlierContainer();
         }
     }
 }
