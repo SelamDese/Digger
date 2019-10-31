@@ -1,0 +1,11 @@
+C:\Users\milliyon\workspace\backend\csharp\Digger\bin\Debug\netcoreapp2.2\Digger.deps.json
+C:\Users\milliyon\workspace\backend\csharp\Digger\bin\Debug\netcoreapp2.2\Digger.runtimeconfig.json
+C:\Users\milliyon\workspace\backend\csharp\Digger\bin\Debug\netcoreapp2.2\Digger.runtimeconfig.dev.json
+C:\Users\milliyon\workspace\backend\csharp\Digger\bin\Debug\netcoreapp2.2\Digger.dll
+C:\Users\milliyon\workspace\backend\csharp\Digger\bin\Debug\netcoreapp2.2\Digger.pdb
+C:\Users\milliyon\workspace\backend\csharp\Digger\obj\Debug\netcoreapp2.2\Digger.csprojAssemblyReference.cache
+C:\Users\milliyon\workspace\backend\csharp\Digger\obj\Debug\netcoreapp2.2\Digger.csproj.CoreCompileInputs.cache
+C:\Users\milliyon\workspace\backend\csharp\Digger\obj\Debug\netcoreapp2.2\Digger.AssemblyInfoInputs.cache
+C:\Users\milliyon\workspace\backend\csharp\Digger\obj\Debug\netcoreapp2.2\Digger.AssemblyInfo.cs
+C:\Users\milliyon\workspace\backend\csharp\Digger\obj\Debug\netcoreapp2.2\Digger.dll
+C:\Users\milliyon\workspace\backend\csharp\Digger\obj\Debug\netcoreapp2.2\Digger.pdb

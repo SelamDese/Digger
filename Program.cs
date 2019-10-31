@@ -275,6 +275,16 @@ namespace Digger
 
             diggerContainer.ContainedAnimals.Add(new Gerbil("Gerbil"));
 
+
+            Console.WriteLine("Digger Container contains:");
+            diggerContainer.ContainedAnimals.ForEach(animal => Console.WriteLine($" - {animal.Name}"));
+            Console.WriteLine("Walker Container contains:");
+            walkerContainer.ContainedAnimals.ForEach(animal => Console.WriteLine($" - {animal.Name}"));
+            Console.WriteLine("Swimmer Container contains:");
+            swimmerContainer.ContainedAnimals.ForEach(animal => Console.WriteLine($" - {animal.Name}"));
+            Console.WriteLine("Flier Container contains:");
+            flierContainer.ContainedAnimals.ForEach(animal => Console.WriteLine($" - {animal.Name}"));
+
         }
     }
 }
