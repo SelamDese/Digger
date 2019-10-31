@@ -252,6 +252,39 @@ namespace Digger
             WalkerContainer walkerContainer = new WalkerContainer();
             SwimmerContainer swimmerContainer = new SwimmerContainer();
             FlierContainer flierContainer = new FlierContainer();
+
+
+
+            flierContainer.ContainedAnimals.Add(new Parakeet("Parakeet"));
+
+            diggerContainer.ContainedAnimals.Add(new Earthworm("Earthworm"));
+
+            swimmerContainer.ContainedAnimals.Add(new Terrapin("Terrapin"));
+
+            walkerContainer.ContainedAnimals.Add(new TimberRattlesnake("Timber Rattlesnake"));
+
+            diggerContainer.ContainedAnimals.Add(new Mouse("Mouse"));
+
+            diggerContainer.ContainedAnimals.Add(new Ant("Ant"));
+
+            flierContainer.ContainedAnimals.Add(new Finch("Finch"));
+
+            swimmerContainer.ContainedAnimals.Add(new Betta("Betta"));
+
+            walkerContainer.ContainedAnimals.Add(new Copperhead("Copperhead"));
+
+            diggerContainer.ContainedAnimals.Add(new Gerbil("Gerbil"));
+
+
+            Console.WriteLine("Digger Container contains:");
+            diggerContainer.ContainedAnimals.ForEach(animal => Console.WriteLine($" - {animal.Name}"));
+            Console.WriteLine("Walker Container contains:");
+            walkerContainer.ContainedAnimals.ForEach(animal => Console.WriteLine($" - {animal.Name}"));
+            Console.WriteLine("Swimmer Container contains:");
+            swimmerContainer.ContainedAnimals.ForEach(animal => Console.WriteLine($" - {animal.Name}"));
+            Console.WriteLine("Flier Container contains:");
+            flierContainer.ContainedAnimals.ForEach(animal => Console.WriteLine($" - {animal.Name}"));
+
         }
     }
 }
